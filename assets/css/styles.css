@@ -18,7 +18,6 @@ body, html {
 	
 }
 .display {
-	width: 100%;
 	height: 60px;
 	padding: 40px 0;
 	background: #FF0509;
@@ -27,6 +26,7 @@ body, html {
 }
 .buttons {
 	padding: 20px 20px 0 20px;
+
 }
 .row {
 	width: 280px;
@@ -34,7 +34,7 @@ body, html {
 }
 input[type=button] {
 	width: 60px;
-	height: 60px;
+	height: 70px;
 	float: left;
 	padding: 0;
 	margin: 5px;
@@ -49,10 +49,18 @@ input[type=button] {
 	cursor: pointer;
 	
 }
+input.cool{
+	border-radius: 10%;
+	width: 80px;
+	height: 40px;
+	font-size: 20px;
+	background-color: #FF0509;
+	color: #fff;
+	margin-bottom: 10px;
+}
 input[type=text] {
 	width: 270px;
 	height: 60px;
-	float: left;
 	padding: 0;
 	box-sizing: border-box;
 	border: none;
@@ -60,10 +68,17 @@ input[type=text] {
 	color: #ffffff;
 	text-align: right;
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 50px;
 	line-height: 60px;
 	margin: 0 25px;
-	
+
+  
+}
+input::placeholder{
+	color: #fff;
+}
+input[type=text]:focus{
+	outline: none;
 }
 .red {
 	background: #FF0509 !important;

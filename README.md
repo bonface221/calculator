@@ -12,7 +12,7 @@ your third assignment!
 All assignments are hosted on GitHub. In order to work on them, however, you
 will need to complete work on your local machine.
 
-User interface of the assignment is already done [here!](https://github.com/apprenticecloud/calculator)
+User interface of the assignment is already done [here!](https://github.com/bonface221/calculator)
 
 
 - Download your personal copy (referred to as 'cloning') to your computer
